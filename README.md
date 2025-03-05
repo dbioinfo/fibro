@@ -1,5 +1,6 @@
 This repository contains an RNA-Seq analysis pipeline designed for comparative genomics across multiple species. It handles alignment, ID translation between species, transcript quantification, and differential expression analysis.
 
+```
 rnaseq-pipeline
 ├── main workflow
 │   ├── alignment
@@ -18,3 +19,4 @@ rnaseq-pipeline
 ├── docs
 │   └── README.md                         # Project documentation
 └── .gitignore                            # Ignore large data files, etc.
+```
