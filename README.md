@@ -15,7 +15,8 @@ rnaseq-pipeline
 │       ├── gather_counts.R               # Collect count data
 │       └── gather_human_transcripts.R    # Collection of human transcripts
 ├── analysis
-│   └── DESeq_allspecs.R                  # Differential expression with DESeq2
+│   ├── DESeq_allspecs.R                  # Differential expression with DESeq2
+│   └── shinyfibro/app.R                  # Shiny app visualization of DE data
 ├── docs
 │   └── README.md                         # Project documentation
 └── .gitignore                            # Ignore large data files, etc.
@@ -55,6 +56,6 @@ rnaseq-pipeline
 
 ### Troubleshooting
 
-- If you encounter permission issues with Docker, you may need to run the commands with `su
+- If you encounter permission issues with Docker, you may need to run the commands with `sudo`
 - Ensure ports are not already in use by another application
  
